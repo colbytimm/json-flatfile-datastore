@@ -1,8 +1,8 @@
 # Changelog
 
 ### [Unreleased]
-* ADDED: Encrypted DataStore
-* 
+* ADDED: Optional encryption for JSON-file content
+
 ### [2.2.3] - 2021-06-13
 * FIXED: Update of typed arrays
 * FIXED: Update of dynamic arrays in dynamic objects
