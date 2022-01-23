@@ -618,6 +618,15 @@ var store = new DataStore(newFilePath);
 var store = new DataStore(newFilePath, false);
 ```
 
+## Encypt Data
+
+It is possible to encrypt the written JSON-data. Use `EncryptedDataStore`-class which requires  `encryptionKey` as a parameter.
+
+```c#
+var encryptionKey = "Some secret key";
+var store = new EncryptedDataStore(newFilePath, encryptionKey);
+```
+
 ## Dynamic and error CS1977
 
 When __Dynamic type__ is used with lambdas, compiler will give you error __CS1977__:
